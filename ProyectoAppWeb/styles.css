@@ -1,0 +1,74 @@
+* {
+    margin: 0px auto;
+}
+
+.navbar li a:hover {
+    background-color: rgb(241, 15, 121);
+}
+.navbar li a {
+    color: black;
+}
+
+.interests-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interest {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.interest.active {
+    background-color: #FF6B6B;
+}
+
+footer {
+    background-color: transparent;
+    color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 20px 0;
+    position: relative;
+    top: 70px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+  
+.container p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer p {
+    font-family: "Protest Riot", sans-serif;
+}
+.footer-links {
+    font-family: "Protest Riot", sans-serif;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 40px;
+}
+  
+.footer-links li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    color: rgb(241, 15, 121); /* Cambiar color al pasar el mouse sobre el enlace */
+}
